@@ -4,7 +4,7 @@ This repository contains the implementation of a puzzle solver developed for the
 
 > **Physical Complexity of a Cognitive Artifact**  
 
-> Gülce Kardeş, David Krakauer, and Joshua A. Grochow
+> Gülce Kardeş, David Krakauer, and Joshua Grochow
 
 ## Solver Strategies
 
@@ -98,7 +98,3 @@ Run the solver with the default deterministic cell-selection strategy:
 - `matplotlib`
 - `argparse`
 - `pickle`
-
-Install the required packages using:
-
-`pip install numpy matplotlib`

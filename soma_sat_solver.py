@@ -2,7 +2,7 @@ import sys
 import time
 import numpy as np
 import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D  # for 3D plotting
+from mpl_toolkits.mplot3d import Axes3D
 from collections import defaultdict
 from pysat.solvers import Minisat22
 

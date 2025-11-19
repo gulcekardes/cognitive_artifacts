@@ -1,11 +1,17 @@
 # Solver for "Physical Complexity of a Cognitive Artifact"
 
-This repository contains the implementation of a puzzle solver developed for the paper:
+This repository contains the code for our cognitive-artifacts experiments on the cube and related puzzles.
 
-> **Physical Complexity of a Cognitive Artifact**  
+- `solver.py` is the main search-based solver for the cube.
+- `sat_solver.py` converts the same puzzle representation into a SAT (CNF) encoding used in our SAT-based experiments.
+- `preprocessing.py` is used to regenerate the preprocessing / querying curves reported in the paper.
 
-> Gülce Kardeş, David Krakauer, and Joshua Grochow
+The following scripts are auxiliary and are mainly used for the appendix case studies and figures (they are not needed to run the main solver):
 
+- `chess.py`, `chess_branching_trend.py` – scripts for the chess-style branching experiments.
+- `sliding.py` – sliding-block–style toy model.
+- `slothouber_graatsma.py` (and related files) – experiments on the Slothouber–Graatsma puzzle.
+  
 ## Solver Strategies
 
 The implementation in [`solvers.py`](solvers.py) incorporates the following strategies:

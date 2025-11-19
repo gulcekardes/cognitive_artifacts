@@ -10,7 +10,7 @@ The following scripts are auxiliary and are mainly used for the appendix case st
 
 - `chess.py`, `chess_branching_trend.py` – scripts for the chess-style branching experiments.
 - `sliding.py` – sliding-block–style toy model.
-- `slothouber_graatsma.py` (and related files) – experiments on the Slothouber–Graatsma puzzle.
+- `slothouber_graatsma.py` – experiments on the Slothouber–Graatsma puzzle.
   
 ## Solver Strategies
 
